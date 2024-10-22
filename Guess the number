@@ -1,0 +1,12 @@
+import random
+
+magic_number = random.randrange(1,10)
+print(magic_number)
+
+user_number = int(input("Please enter a number: "))
+
+
+if user_number==magic_number:
+  print("You Have Won!")
+else:
+  print("You were incorrect.")
